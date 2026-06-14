@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resources | 4SupportsTherapy</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background: #fafafa;
+      color: #333;
+    }
+    header {
+      background: #6a1b9a; /* Royal Purple Header */
+      color: white;
+      padding: 1rem 0;
+      text-align: center;
+    }
+    nav {
+      background: #4a148c; /* Darker Purple Nav */
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: 500;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .resources-container {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    .resource-card {
+      background: white;
+      border: 2px solid #6a1b9a; /* Royal purple border */
+      border-radius: 12px;
+      padding: 30px;
+      margin: 30px 0;
+      box-shadow: 0 4px 15px rgba(106, 27, 154, 0.15);
+      transition: transform 0.2s;
+    }
+    .resource-card:hover {
+      transform: translateY(-5px);
+    }
+    .resource-card h3 {
+      color: #6a1b9a; /* Royal purple title */
+      margin-top: 0;
+      font-size: 1.5em;
+    }
+    .download-btn {
+      display: inline-block;
+      background: #6a1b9a; /* Royal purple button */
+      color: white !important;
+      padding: 12px 28px;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      margin: 15px 0;
+      transition: background 0.2s;
+    }
+    .download-btn:hover {
+      background: #4a148c; /* Darker purple on hover */
+    }
+    .meta {
+      color: #777;
+      font-size: 0.9em;
+      font-style: italic;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #333;
+      color: white;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>4SupportsTherapy Resources</h1>
+    <p>Practical tools for Kenyan counsellors, HR managers, and educators</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="resources.html">Resources</a>
+    <a href="blog.html">Blog</a>
+  </nav>
+
+  <main>
+    <div class="resources-container">
+      <h2>Free Downloads</h2>
+      
+      <div class="resource-card">
+        <h3>Counsellors’ Field Manual: 2026 Edition</h3>
+        <p>A practical guide for workplace counselling, school guidance, crisis intervention, and service management in Kenyan contexts. Based on 4+ years of field work.</p>
+        <a href="Counsellors_fieldmanual2026.pdf" class="download-btn" download>Download Free PDF</a>
+        <p class="meta">24 pages | Updated June 2026 | By Hannah Wanjuhi Ticha</p>
+      </div>
+
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 4SupportsTherapy | Hannah Wanjuhi Ticha | Built with 💜 in Kenya</p>
+  </footer>
+</body>
+</html>
