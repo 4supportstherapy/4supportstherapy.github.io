@@ -1,172 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Resources | 4SupportsTherapy</title>
-  <style>
-    body {
-      font-family: 'Segoe UI', Arial, sans-serif;
-      line-height: 1.6;
-      margin: 0;
-      padding: 0;
-      background: #fafafa;
-      color: #333;
-    }
-    header {
-      background: #6a1b9a;
-      color: white;
-      padding: 2rem 0;
-      text-align: center;
-    }
-    nav {
-      background: #4a148c;
-      padding: 12px;
-      text-align: center;
-    }
-    nav a {
-      color: white;
-      text-decoration: none;
-      margin: 0 20px;
-      font-weight: 500;
-      font-size: 1.1em;
-    }
-    nav a:hover {
-      text-decoration: underline;
-    }
-    .resources-container {
-      max-width: 800px;
-      margin: 40px auto;
-      padding: 0 20px;
-    }
-    .resource-card {
-      background: white;
-      border: 2px solid #6a1b9a;
-      border-radius: 12px;
-      padding: 35px 30px;
-      margin: 30px 0;
-      box-shadow: 0 4px 15px rgba(106, 27, 154, 0.15);
-      transition: transform 0.2s;
-      text-align: center;
-    }
-    .resource-card:hover {
-      transform: translateY(-5px);
-    }
-    .resource-card h3 {
-      color: #6a1b9a;
-      margin-top: 0;
-      font-size: 1.7em;
-      margin-bottom: 25px;
-    }
-    .download-btn {
-      display: inline-block;
-      background: #6a1b9a;
-      color: white !important;
-      padding: 16px 36px;
-      text-decoration: none;
-      border-radius: 8px;
-      font-weight: bold;
-      margin: 10px 0;
-      transition: background 0.2s;
-      font-size: 1.1em;
-    }
-    .download-btn:hover {
-      background: #4a148c;
-    }
-    .meta {
-      color: #777;
-      font-size: 0.95em;
-      font-style: italic;
-      margin-top: 20px;
-    }
-    footer {
-      text-align: center;
-      padding: 25px;
-      background: #333;
-      color: white;
-      margin-top: 60px;
-    }
-  </style>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Resources - 4 Supports Therapy</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<style>*{font-family:'Outfit',sans-serif} .serif{font-family:'Instrument Serif',serif} html{font-size:118%}</style>
 </head>
-<body>
-  <header>
-    <h1>4SupportsTherapy Resources</h1>
-    <p>Professional tools for counselling practice</p>
-  </header>
+<body class="min-h-screen bg-[#f8f5ff] text-[#1e1b2e]">
+<nav class="sticky top-0 z-50 bg-[#6d28d9] border-b border-white/10 shadow"><div class="max-w-[1120px] mx-auto px-6 h-[68px] flex items-center justify-between"><a href="index.html" class="flex items-center gap-3"><div class="w-9 h-9 rounded-[10px] bg-white text-[#6d28d9] grid place-items-center font-bold">4S</div><div class="leading-[1.05]"><div class="text-white font-semibold text-[16px]">4 Supports Therapy</div><div class="text-white/70 text-[11px] tracking-widest uppercase">Hannah W. Ticha</div></div></a><div class="flex items-center gap-6"><a href="index.html" class="hidden md:inline text-white/80 hover:text-white text-[14px] font-medium">Home</a><a href="family-therapy.html" class="hidden md:inline text-white/80 hover:text-white text-[14px] font-medium">Family</a><a href="couples-counselling.html" class="hidden md:inline text-white/80 hover:text-white text-[14px] font-medium">Couples</a><a href="resources.html" class="hidden md:inline text-white text-[14px] font-medium border-b border-white/50 pb-[2px]">Resources</a><a href="training.html" class="hidden md:inline text-white/80 hover:text-white text-[14px] font-medium">Training</a><a href="blog.html" class="text-white/90 hover:text-white text-[14px] font-medium">Blog ↗</a></div></div></nav>
 
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="resources.html">Resources</a>
-    <a href="blog.html">Blog</a>
-  </nav>
+<div class="bg-gradient-to-br from-[#6d28d9] to-[#4c1d95] text-white py-[56px] px-6"><div class="max-w-[1120px] mx-auto"><div class="inline-flex items-center gap-2 bg-white/10 border border-white/15 rounded-full px-4 py-1.5 text-[12px] tracking-widest uppercase font-semibold">Library • Tools • Healing</div><h1 class="serif mt-6 text-[40px] md:text-[52px] leading-[0.95]">Resources</h1><p class="mt-4 text-[18px] text-white/90 max-w-[720px]">Curated tools for individuals, families, and professionals - Kenya & Beyond</p></div></div>
 
-  <main>
-    <div class="resources-container">
-      <h2>Featured Publications</h2>
-      
-      <div class="resource-card">
-        <h3>Counsellors’ Field Manual: 2026 Edition</h3>
-        <a href="Counsellors_fieldmanual2026.pdf" class="download-btn" download>Download Free PDF</a>
-        <p class="meta">24 pages | Updated June 2026 | By Hannah Wanjuhi Ticha</p>
-      </div>
+<div class="max-w-[1120px] mx-auto px-6 py-10 md:py-14 space-y-8">
 
-      <div class="resource-card">
-        <h2>Professional Training Programs</h2>
-<div style="background:#f5f3ff;padding:20px;border-left:5px solid #6d28d9;margin:20px 0;">
-  <p><strong>From doctoral-level research to frontline practice.</strong> courses authored for counselors globally.</p>
-  <p><a href="training.html" style="background:#10b981;color:white;padding:12px 24px;border-radius:5px;text-decoration:none;font-weight:bold;">🎓 Browse Training Programs</a></p>
-</div>
-        <h3>Trauma & Stress Management Guide</h3>
-        <a href="traumaandstressmanagement.pdf" class="download-btn" download>Download Free PDF</a>
+<div class="grid md:grid-cols-3 gap-6">
+<a href="training.html" style="text-decoration:none;"><div class="bg-white border border-[#e9d5ff] rounded-[20px] p-8 hover:shadow-[0_12px_32px_rgba(109,40,217,0.12)] transition"><div class="w-12 h-12 rounded-[14px] bg-[#f5f3ff] grid place-items-center text-[24px]">🎓</div><h3 class="mt-5 text-[20px] font-semibold">Training</h3><p class="mt-2 text-[15px] text-slate-600">CAFT, Bloom's Taxonomy, Psychopedagogy workshops</p><p class="mt-4 text-[13px] font-bold text-[#6d28d9] uppercase">Explore Training →</p></div></a>
 
+<a href="traumaandstressmanagement.pdf" target="_blank" style="text-decoration:none;"><div class="bg-white border border-[#fbbf24]/40 rounded-[20px] p-8 hover:shadow-[0_12px_32px_rgba(251,191,36,0.15)] transition"><div class="w-12 h-12 rounded-[14px] bg-[#fef3c7] grid place-items-center text-[24px]">📄</div><h3 class="mt-5 text-[20px] font-semibold">Trauma & Stress Management PDF</h3><p class="mt-2 text-[15px] text-slate-600">Downloadable guide - coping, resilience, family healing</p><p class="mt-4 text-[13px] font-bold text-[#92400e] uppercase">Download PDF →</p></div></a>
 
-        <!DOCTYPE html>
-<html>
-<head>
-    <title>Free Counselor Resources - 4 Supports Therapy</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
-<body style="font-family:Arial;padding:20px;max-width:800px;margin:auto;line-height:1.6;">
-
-<h1>Free Counselor Resources</h1>
-
-<h3>Free Micro-Tools for Counselors</h3>
-<div style="background:#fef3c7;padding:20px;border-left:5px solid #f59e0b;margin:20px 0;border-radius:5px;">
-  <p><strong>Quick wins you can use in your next session.</strong> From my paid training programs.</p>
-  
-  <ul style="list-style:none;padding:0;margin:15px 0;">
-    <li style="margin:12px 0;">
-      <a href="crisis_checklist.pdf" style="color:#92400e;font-weight:bold;text-decoration:none;font-size:16px;">
-        🚨 3 Questions That Stop a Client Spiral
-      </a> 
-      <span style="color:#78716c;">- Use in the first 60 seconds of crisis</span>
-    </li>
-    
-    <li style="margin:12px 0;">
-      <a href="trauma_signs.pdf" style="color:#92400e;font-weight:bold;text-decoration:none;font-size:16px;">
-        💜 5 Hidden Signs of Teen Trauma
-      </a> 
-      <span style="color:#78716c;">- Most counselors miss #3 (Coming Soon)</span>
-    </li>
-    
-    <li style="margin:12px 0;">
-      <a href="burnout_quiz.pdf" style="color:#92400e;font-weight:bold;text-decoration:none;font-size:16px;">
-        ☕ 2-Minute Counselor Burnout Quiz
-      </a> 
-      <span style="color:#78716c;">- Are you running on empty? (Coming Soon)</span>
-    </li>
-  </ul>
-  
-  <p style="margin-top:20px;font-size:15px;border-top:1px solid #fbbf24;padding-top:15px;">
-    <em>These are Module 1 from my paid courses. Want the full system + live practice? → 
-    <a href="training.html" style="color:#6d28d9;font-weight:bold;text-decoration:underline;">Browse Training Programs</a></em>
-  </p>
+<a href="trauma-informed-care.html" style="text-decoration:none;"><div class="bg-white border border-[#e9d5ff] rounded-[20px] p-8 hover:shadow-[0_12px_32px_rgba(109,40,217,0.12)] transition"><div class="w-12 h-12 rounded-[14px] bg-[#ede8ff] grid place-items-center text-[24px]">🩹</div><h3 class="mt-5 text-[20px] font-semibold">Trauma Informed Care</h3><p class="mt-2 text-[15px] text-slate-600">Understanding trauma, attachment, and healing pathways</p><p class="mt-4 text-[13px] font-bold text-[#6d28d9] uppercase">Read More →</p></div></a>
 </div>
 
-<p><a href="index.html">← Back to Home</a></p>
+<div class="bg-[#1e1b2e] text-white/80 rounded-[20px] p-8 md:p-10"><h2 class="serif text-white text-[24px]">More Resources Coming</h2><p class="mt-3 text-[15px]">Psychopedagogy tools, Faith integration, Bloom's taxonomy worksheets - building slowly with your hard files making! 💜</p><div class="mt-6 flex flex-wrap gap-3"><a href="psychopedagogy.html" class="px-4 py-2 rounded-full bg-white text-[#6d28d9] text-[13px] font-semibold">Psychopedagogy</a><a href="faith-integration.html" class="px-4 py-2 rounded-full border border-white/20 text-white text-[13px]">Faith Integration</a><a href="blooms-model.html" class="px-4 py-2 rounded-full border border-white/20 text-white text-[13px]">Bloom's Model</a></div></div>
 
+</div>
+<footer class="bg-[#1a1628] text-white/60 py-8 px-6 mt-12"><div class="max-w-[1120px] mx-auto flex justify-between text-[12px]"><div>© 2026 4 Supports Therapy</div><div>Resources Resurrected 💜</div></div></footer>
 </body>
 </html>
-       
-  
-       
